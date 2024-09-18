@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\gameuser\\Desktop\\GamePlayProgramming-Year3\\Match-3\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2468F6A5-B7AF-44EC-8CC2-D5EEC1219037}|Match-3\\Match-3.vcxproj|C:\\Users\\gameuser\\Desktop\\GamePlayProgramming-Year3\\Match-3\\Match-3\\Match3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2468F6A5-B7AF-44EC-8CC2-D5EEC1219037}|Match-3\\Match-3.vcxproj|solutionrelative:Match-3\\Match3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Match3.cpp",
+              "DocumentMoniker": "C:\\Users\\gameuser\\Desktop\\GamePlayProgramming-Year3\\Match-3\\Match-3\\Match3.cpp",
+              "RelativeDocumentMoniker": "Match-3\\Match3.cpp",
+              "ToolTip": "C:\\Users\\gameuser\\Desktop\\GamePlayProgramming-Year3\\Match-3\\Match-3\\Match3.cpp",
+              "RelativeToolTip": "Match-3\\Match3.cpp",
+              "ViewState": "AQIAADQAAAAAAAAAAAAmwEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-18T08:32:53.348Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
