@@ -1,7 +1,7 @@
 ﻿  Match3.cpp
-C:\Users\tadhg\Desktop\College\Third Year\GamePlayProgramming-Year3\Match-3\Match-3\Match3.cpp(99,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\tadhg\Desktop\College\Third Year\GamePlayProgramming-Year3\Match-3\Match-3\Match3.cpp(146,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\tadhg\Desktop\College\Third Year\GamePlayProgramming-Year3\Match-3\Match-3\Match3.cpp(146,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\tadhg\Desktop\College\Third Year\GamePlayProgramming-Year3\Match-3\Match-3\Match3.cpp(181,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\tadhg\Desktop\College\Third Year\GamePlayProgramming-Year3\Match-3\Match-3\Match3.cpp(181,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  Match-3.vcxproj -> C:\Users\tadhg\Desktop\College\Third Year\GamePlayProgramming-Year3\Match-3\Debug\Match-3.exe
+C:\Users\gameuser\Desktop\GamePlayProgramming-Year3\Match-3\Match-3\Match3.cpp(99,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\gameuser\Desktop\GamePlayProgramming-Year3\Match-3\Match-3\Match3.cpp(146,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\gameuser\Desktop\GamePlayProgramming-Year3\Match-3\Match-3\Match3.cpp(146,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\gameuser\Desktop\GamePlayProgramming-Year3\Match-3\Match-3\Match3.cpp(181,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\gameuser\Desktop\GamePlayProgramming-Year3\Match-3\Match-3\Match3.cpp(181,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Match-3.vcxproj -> C:\Users\gameuser\Desktop\GamePlayProgramming-Year3\Match-3\Debug\Match-3.exe
