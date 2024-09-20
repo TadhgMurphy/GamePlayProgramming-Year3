@@ -115,6 +115,12 @@ int main()
 	{
 		tileTextures[i].loadFromFile("tile" + std::to_string(i) + ".png");
 	}
+
+	sf::RectangleShape tileOutline(sf::Vector2f(TILE_SIZE, TILE_SIZE));
+	tileOutline.setFillColor(sf::Color::Transparent);
+	tileOutline.setOutlineThickness(3);
+	tileOutline.setOutlineColor(sf::Color::Black);
+
 	sf::Vector2i selectedTile(-1, -1);
 	bool tileSelected = false;
 
@@ -136,6 +142,8 @@ int main()
 					{
 						selectedTile = sf::Vector2i(x, y);
 						tileSelected = true;
+
+						tileOutline.setPosition(x * TILE_SIZE, y * TILE_SIZE);
 					}
 					else
 					{
@@ -174,6 +182,11 @@ int main()
 					window.draw(sprite);
 				}
 			}
+		}
+
+		if (tileSelected)
+		{
+			window.draw(tileOutline);
 		}
 
 		window.display();
