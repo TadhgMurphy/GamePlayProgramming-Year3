@@ -3,20 +3,60 @@
 
 bool isLeapYear(int year)
 {
-	return true;
+	if (year % 4 == 0)
+	{
+		if (year % 100 == 0)
+		{
+			if (year % 400 == 0)
+			{
+				return true;
+			}
+			return false;
+		}
+		return false;
+	}
+	return false;
 }
 
 int Reversed(int testNumber)
 {
-	return 0;
+	int reversedNumber = 0;
+
+	while (testNumber > 0)
+	{
+		int lastDigit = testNumber % 10;
+		reversedNumber = reversedNumber * 10 + lastDigit;
+		testNumber /= 10;
+	}
+	return reversedNumber;
 }
 bool isAPalindrome(int testNumber)
 {
-	return false;
+	int originalNum = testNumber;
+	int reversedNum = 0;
+	
+	while (testNumber > 0)
+	{
+		int lastDigit = testNumber % 10;
+		reversedNum = reversedNum * 10 + lastDigit;
+		testNumber /= 10;
+	}
+	return originalNum == reversedNum;
 }
 bool isAPrimeNumber(int numbertoTest)
 {
-	return false;
+	if (numbertoTest < 2)
+	{
+		return false;
+	}
+	for (int i = 2; i * i <= numbertoTest; i++)
+	{
+		if (numbertoTest % i == 0)
+		{
+			return false;
+		}
+	}
+	return true;
 }
 int input5CharsConvertToInt()
 {
@@ -25,9 +65,13 @@ int input5CharsConvertToInt()
 	for (int i = 0; i < 5; i++)
 	{
 		std::cin >> inputChar;
+		if (inputChar < '0' || inputChar > '9')
+		{
+			return 0;
+		}
 		//check if its a digit.
 		//do something
-
+		returnInt = returnInt * 10 + (inputChar - '0');
 	}
 	return returnInt;
 }

@@ -24,7 +24,7 @@ int main()
 	else {
 		std::cout << "no" << std::endl;
 	}
-	std::cout << "NumberReversed" << std::endl;
+	std::cout << "NumberReversed: " << std::endl;
 	if (Reversed(123) == 321)
 	{
 		std::cout << "yes" << std::endl;
@@ -78,7 +78,7 @@ int main()
 	else {
 		std::cout << "no" << std::endl;
 	}
-	if (isAPrimeNumber(2147483647))
+	if (isAPrimeNumber(217483647)) //2147483647
 	{
 		std::cout << "yes" << std::endl;
 	}
