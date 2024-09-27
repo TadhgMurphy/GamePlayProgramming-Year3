@@ -81,11 +81,30 @@ int convertBinarytoDecimal(int binaryNumber)
 }
 void drawRightAngledTriangle()
 {
-
+	for (int i = 1; i <= 4; i++)
+	{
+		for (int j = 1; j <= i; j++)
+		{
+			std::cout << "A";
+		}
+		std::cout << std::endl;
+	
+	}
 }
 void drawIsocelesTriangle()
 {
-
+	for (int i = 1; i <= 4; ++i) {
+		for (int j = 1; j <= i; ++j) {
+			std::cout << "A";
+		}
+		std::cout << std::endl;
+	}
+	for (int i = 3; i >= 1; --i) {
+		for (int j = 1; j <= i; ++j) {
+			std::cout << "A";
+		}
+		std::cout << std::endl;
+	}
 }
 void drawIsocelesTriangle2()
 {
@@ -94,11 +113,38 @@ void drawIsocelesTriangle2()
 
 int find(int size, int arr[], int toFind)
 {
+	for (int i = 0; i < size; i++)
+	{
+		if (arr[i] == toFind)
+		{
+			return i;
+		}
+	}
 	return -1;
 }
 int find2ndLargest(int size, int arr[])
 {
-	return -1;
+	if (size < 2)
+	{
+		return -1;
+	}
+	int largest = 0;
+	int secondLargest = 0;
+
+	for (int i = 0; i < size; i++) 
+	{
+		if (arr[i] > largest) 
+		{
+			secondLargest = largest;
+			largest = arr[i];
+		}
+		else if (arr[i] > secondLargest && arr[i] != largest) 
+		{
+			secondLargest = arr[i];
+		}
+	}
+
+	return secondLargest;
 }
 void copyArraytoArray(int size, int arr1[], int arr2[])
 {
