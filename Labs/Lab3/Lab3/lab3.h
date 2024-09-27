@@ -1,29 +1,61 @@
 #pragma once
 #include <iostream>
-
+/// <summary>
+/// Tadhg Murphy
+/// </summary>
 void FindAllVariables(char variables[1000], char code[1000])
 {
-	variables[0] = '\0';
-	char line[1000];
-	char variable[1000];
+	int varIndex = 0;
 	int i = 0;
-	int j = 0;
 
 	while (code[i] != '\0')
 	{
-		j = 0;
-		while (code[i] != '\n' && code[i] != '\0')
+		if (code[i] == 'i' && code[i + 1] == 'n' && code[i + 2] == 't' && code[i + 3] == ' ')
 		{
-			line[j++] = code[i++];
+			i += 4;
+
+			while (code[i] == ' ')
+			{
+				i++;
+			}
+
+			while (code[i] != ' ' && code[i] != '=' && code[i] != ';' && code[i] != '\n' && code[i] != '\0')
+			{
+				variables[varIndex++] = code[i++];
+			}
+			variables[varIndex] = ',';
 		}
-		line[j] = '\0';
-		if (code[i] == 'n')
+
+
+		else if (code[i] == 'c' && code[i + 1] == 'h' && code[i + 2] == 'a' && code[i + 3] == 'r' && code[i + 4] == ' ')
+		{
+			i += 5;
+
+			while (code[i] == ' ')
+			{
+				i++;
+			}
+
+			while (code[i] != ' ' && code[i] != '=' && code[i] != ';' && code[i] != '\n' && code[i] != '\0')
+			{
+				variables[varIndex++] = code[i++];
+			}
+			variables[varIndex] = ',';
+		}
+
+		else
 		{
 			i++;
 		}
+	}
 
-		if((line[0] == 'i' && line[1] == 'n' && line[2] == 't') || 
-			(line[0] == 'c' && line[1] == 'h' && line[2] == 'a' && line[3] == 'r'))
+	if (varIndex > 0 && variables[varIndex - 1] == ',')
+	{
+		variables[varIndex - 1] = '\0';
+	}
+	else
+	{
+		variables[varIndex] = '\0';
 	}
 }
 void FindAllVariablesInScope(char variables[1000], char code[1000], int lineNumber)
