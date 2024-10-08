@@ -12,5 +12,5 @@ int main()
 	FindAllVariables(variables, code);
 	FindAllVariablesInScope(variables, code, 12);
 
-
+	std::cout << variables;
 }

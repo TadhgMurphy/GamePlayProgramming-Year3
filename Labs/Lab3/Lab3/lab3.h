@@ -60,5 +60,49 @@ void FindAllVariables(char variables[1000], char code[1000])
 }
 void FindAllVariablesInScope(char variables[1000], char code[1000], int lineNumber)
 {
+	int varIndex = 0;
+	int i = 0;
+	int currentLine = 1;
+	int scopeCount = 0;
 
+	while (code[i] != '\0')
+	{
+		if (code[i] == '\n')
+		{
+			currentLine++;
+		}
+
+		if (currentLine == lineNumber)
+		{
+			while (i >= 0 && code[i] != '{')
+			{
+				i--;
+			}
+
+			break;
+		}
+		i++;
+	}
+
+	if (code[i] == '{')
+	{
+		scopeCount++;
+		i++;
+
+		while (scopeCount > 0 && code[i] != '\0')
+		{
+			if (code[i] == '{')
+			{
+				scopeCount++;
+			}
+			else if (code[i] == '}')
+			{
+				scopeCount--;
+
+				if (scopeCount == 0)
+				break;
+			}
+
+		}
+	}
 }
