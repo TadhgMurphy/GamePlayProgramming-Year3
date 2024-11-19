@@ -1,0 +1,7 @@
+﻿  art.cpp
+C:\Users\gameuser\Desktop\GamePlayProgramming-Year3\PixelArtCreator\PixelArtCreator\art.cpp(54,42): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\gameuser\Desktop\GamePlayProgramming-Year3\PixelArtCreator\PixelArtCreator\art.cpp(54,42): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\gameuser\Desktop\GamePlayProgramming-Year3\PixelArtCreator\PixelArtCreator\art.cpp(67,42): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\gameuser\Desktop\GamePlayProgramming-Year3\PixelArtCreator\PixelArtCreator\art.cpp(67,42): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+art.obj : error LNK2019: unresolved external symbol GuiButton referenced in function main
+C:\Users\gameuser\Desktop\GamePlayProgramming-Year3\PixelArtCreator\x64\Debug\PixelArtCreator.exe : fatal error LNK1120: 1 unresolved externals
