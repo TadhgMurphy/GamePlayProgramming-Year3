@@ -1,0 +1,14 @@
+﻿  art.cpp
+C:\Users\tadhg\Desktop\College\Third Year\GamePlayProgramming-Year3\PixelArt\PixelArt\art.cpp(68,23): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tadhg\Desktop\College\Third Year\GamePlayProgramming-Year3\PixelArt\PixelArt\art.cpp(69,23): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tadhg\Desktop\College\Third Year\GamePlayProgramming-Year3\PixelArt\PixelArt\art.cpp(76,24): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tadhg\Desktop\College\Third Year\GamePlayProgramming-Year3\PixelArt\PixelArt\art.cpp(77,24): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tadhg\Desktop\College\Third Year\GamePlayProgramming-Year3\PixelArt\PixelArt\art.cpp(78,22): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tadhg\Desktop\College\Third Year\GamePlayProgramming-Year3\PixelArt\PixelArt\art.cpp(79,22): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tadhg\Desktop\College\Third Year\GamePlayProgramming-Year3\PixelArt\PixelArt\art.cpp(92,51): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\tadhg\Desktop\College\Third Year\GamePlayProgramming-Year3\PixelArt\PixelArt\art.cpp(92,51): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\tadhg\Desktop\College\Third Year\GamePlayProgramming-Year3\PixelArt\PixelArt\art.cpp(131,51): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\tadhg\Desktop\College\Third Year\GamePlayProgramming-Year3\PixelArt\PixelArt\art.cpp(131,51): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  PixelArt.vcxproj -> C:\Users\tadhg\Desktop\College\Third Year\GamePlayProgramming-Year3\PixelArt\x64\Debug\PixelArt.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
